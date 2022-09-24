@@ -4,21 +4,13 @@ import ssl
 import smtplib
 
 email_sender = "shekarmartinz@gmail.com"
-email_password = "hkfrjffolqbwkqda"
+email_password = ""
 
 email_receiver = "brajashekhar19@gmail.com"
 
-subject = "MYKL Plant Codes"
+subject = "subject"
 body = """
-1001 - Rudraram
-2900 - Sotanala
-3102 - Perundurai
-2902 - Kaharani
-1501 - Kalol
-1012 - Piduguralla
-3105 - CNA
-2903 - Behror
-2101 - Indore
+#Write your mail body
 """
 
 em = EmailMessage()
