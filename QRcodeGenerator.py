@@ -21,5 +21,5 @@ def generate_qrcode(text):
     img.save("qrimgPPwebsite.png")
 
 
-url = input("Enter your url: ")
+url = input("Enter your url or paste a link: ")
 generate_qrcode(url)
